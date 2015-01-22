@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="mainTitle">Shop \'Caterina\'</string>
+  <string name="actionBarTitle">Catalog</string>
+  <string name="showAbout">About application</string>
+  <string name="showShopWebSite">Visit website</string>
+  <string name="showPopupMenu">Menu</string>
+  <string name="progressDlgMessage">Loading...</string>
+  <string name="errorDlgTitle">Error loading goods. Try again later.</string>
+  <string name="lblSizes">Sizes</string>
+  <string name="lblCloth">Cloth</string>
+  <string name="lblColor">Color</string>
+  <string name="lblPrice">Price</string>
+  <string name="lblManufacture">Manufacture</string>
+  <string name="lblAboutAppText">Program for viewing the product catalog shop \'Caterina\'.\n\rVersion: 0.8.</string>
+  <string name="aboutAppTitle">About application</string>
+</resources>

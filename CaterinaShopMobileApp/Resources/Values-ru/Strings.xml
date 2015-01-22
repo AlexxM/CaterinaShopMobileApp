@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="mainTitle">Магазин \'Катерина\'</string>
+  <string name="actionBarTitle">Каталог</string>
+  <string name="showAbout">О приложении</string>
+  <string name="showShopWebSite">Перейти на сайт</string>
+  <string name="showPopupMenu">Дополнительно</string>
+  <string name="progressDlgMessage">Загружаются товары...</string>
+  <string name="errorDlgTitle">Ошибка загруки товара. Попробуйте позже.</string>
+  <string name="lblSizes">Размеры</string>
+  <string name="lblCloth">Состав</string>
+  <string name="lblColor">Цвет</string>
+  <string name="lblPrice">Цена</string>
+  <string name="lblManufacture">Производство</string>
+  <string name="lblAboutAppText">Программа для просмотра товаров интернет-магазина \'Катерина\'.\n\rВерсия: 0.8.</string>
+  <string name="aboutAppTitle">О программе</string>
+</resources>

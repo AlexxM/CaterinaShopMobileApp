@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:background="@drawable/image_view_gradient" />
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1"
+        android:layout_weight="0"
+        android:stretchColumns="0,1"
+        android:gravity="center_vertical"
+        android:background="#ffffffff"
+        android:shrinkColumns="0,1">
+        <TableRow
+            android:textSize="15sp"
+            android:background="#97c9c9c9">
+            <TextView
+                android:id="@+id/lblSizes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblSizes" />
+            <TextView
+                android:id="@+id/lblSizesText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+        <TableRow
+            style="@style/TableItemEven">
+            <TextView
+                android:id="@+id/lblManufacture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblManufacture" />
+            <TextView
+                android:id="@+id/lblManufactureText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+        <TableRow
+            style="@style/TableItemOdd">
+            <TextView
+                android:id="@+id/lblCloth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblCloth" />
+            <TextView
+                android:id="@+id/lblClothText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+        <TableRow
+            style="@style/TableItemEven">
+            <TextView
+                android:id="@+id/lblColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblColor" />
+            <TextView
+                android:id="@+id/lblColorText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+        <TableRow
+            style="@style/TableItemOdd">
+            <TextView
+                android:id="@+id/lblPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblPrice" />
+            <TextView
+                android:id="@+id/lblPriceText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="0.8" android:versionCode="1" package="CaterinaShopMobileApp.CaterinaShopMobileApp">
+	<uses-sdk />
+	<application android:theme="@style/Theme.Holo.Light.Green" android:icon="@drawable/shopicon" android:label="CaterinaShopMobileApp"></application>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest>

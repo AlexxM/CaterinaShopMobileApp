@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- стили строк таблицы с атрибутами товара -->
+	<style name="TableItemEven" parent="android:style/Widget.TextView">
+		<item name="android:textSize">15sp</item>
+ 		<item name="android:background">#9931c434</item>
+ 		<item name="android:layout_marginTop">2dp</item>
+	</style>
+	<style name="TableItemOdd" parent="android:style/Widget.TextView">
+		<item name="android:textSize">15sp</item>
+		<item name="android:background">#97c9c9c9</item>
+		<item name="android:layout_marginTop">2dp</item>
+	</style>
+	
+	<!-- тема activity о программе -->
+	<style name="Theme.Holo.Light.Dialog.Green" parent="android:Theme.Holo.Light.Dialog">
+		    <item name="android:windowTitleStyle">@style/MyAlertDialogTitle</item>
+	</style>
+
+	<!-- стиль для заголовка модальных окон -->
+	<style name="MyAlertDialogTitle" >
+    	<item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/light_green</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+	</style>
+	
+	<!-- стиль модального окна -->
+	<style name="MyAlertDialog">
+		<item name="android:windowBackground">@android:color/transparent</item>
+	 	<item name="android:windowTitleStyle">@style/MyAlertDialogTitle</item>
+	 	<item name="android:windowIsFloating">true</item>
+	 	<item name="android:windowContentOverlay">@null</item>
+	 	<item name="android:buttonBarStyle">@android:style/Holo.Light.ButtonBar.AlertDialog</item>
+    	<item name="android:buttonBarButtonStyle">?android:attr/borderlessButtonStyle</item>
+	</style>
+
+	<!-- изменение подсветки первого элемента выпадающего списка в ActionBar -->
+	<style name="Theme.MyDropDownNav" parent="android:style/Widget.Holo.Light.Spinner">
+    	<item name="android:background">@drawable/green_selector_actionbar_first</item> 
+	</style>
+	<!-- изменение подсветки элементов выпадающего списка выпадающего списка -->
+	<style name="Theme.MyListView" parent="android:style/Widget.Holo.Light.ListView">
+		<item name="android:listSelector">@drawable/green_item_selector</item>
+	</style>
+	
+	<!-- основная тема приложения (выделение объектов зелёным цветом) -->
+	<style name="Theme.Holo.Light.Green" parent="android:Theme.Holo.Light">
+		<item name="android:selectableItemBackground">@drawable/green_item_selector</item>
+		<item name="android:dropDownListViewStyle">@style/Theme.MyListView</item>
+		<item name="android:actionDropDownStyle">@style/Theme.MyDropDownNav</item>
+		<item name="android:alertDialogTheme">@style/MyAlertDialog</item>
+	</style>
+</resources>
